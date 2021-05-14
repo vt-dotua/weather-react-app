@@ -1,0 +1,100 @@
+.card{
+    max-width:500px;
+    border-radius: 5px;
+    background: rgb(240, 166, 166);
+}
+
+.card__header,
+.card__main{
+    padding:10px 10px 10px 10px; 
+}
+
+.card__main{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.card__info{
+    display:flex;
+    align-items: center;
+    margin-left:45px;
+    transform: translate(0, -9.5px);
+}
+
+.card__icon-info{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.w-icon{
+    font-size: 100px;
+}
+
+.w-lable{
+    font-size: 20px;
+}
+
+.card__w-lable{
+    margin-top: 12px;
+}
+
+.card__icon-info{
+    margin-right:45px;
+}
+.card__t{
+    font-size: 70px;
+}
+
+.card__cel-icon_b{
+    transform: translate(6px, 10px);
+}
+
+.card__cel-icon_s{
+    transform: translate(6px, 3.5px);
+}
+
+.cel-icon--small{
+    font-size: 25px;
+}
+
+.cel-icon--big{
+    font-size: 80px;
+}
+
+.card__w-icon{
+    font-size: 75px;
+}
+
+.card__city{
+    font-size:25px;
+    margin-left:25px;
+}
+
+.card__t-info{
+    margin-right:30px;
+}
+
+.card__w-info{
+    margin-right: 35px;
+}
+.card__detailed-info{
+    padding: 0 10px 10px 10px;
+    margin-left: 20px;
+}
+
+.card__p_items{
+    margin: 5px 0 5px 0;
+    font-size: 20px;
+}
+
+.card__p_items--m-bottom{
+    margin-bottom: 10px;
+}
+
+
+
+
+
