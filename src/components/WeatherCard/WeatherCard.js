@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from "react";
 import './WeatherCard.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const WeatherCard = (props) => {
   return (
       <div className="card">
           <div className="card__header">
-              <span className="card__city">{props.weatherData.city}, {props.weatherData.country}</span>
+            <span className="card__city">{props.weatherData.city}, {props.weatherData.country}</span>
+            <FontAwesomeIcon icon="sync" onClick={props.onRefreshButtonClick} />
           </div>
           <div className="card__main">
               <div className="card__info">

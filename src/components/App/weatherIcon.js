@@ -13,7 +13,6 @@ export let weatherIcon = {
         Smoke   : "wi-smoke",
         Sand    : "wi-sandstorm",
         Squall  : "wi-strong-wind"
-
     },
     
     n:{

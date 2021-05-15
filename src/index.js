@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import "weather-icons/css/weather-icons.css"
 import App from './components/App/';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSync } from '@fortawesome/free-solid-svg-icons'
 
+library.add(faSync)
 
 ReactDOM.render(
   <React.StrictMode>
